@@ -1,4 +1,4 @@
-texture-mapper
+TextureMapper
 ==============
 
-A program that creates texturemaps from an image
+This is a program that creates textures from rgb images. Still heavily in developement.
