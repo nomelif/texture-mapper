@@ -46,7 +46,11 @@ public abstract class AbstractGenerator {
 				result[y][x] = 0.0;
 				for(int y_2 = 0; y_2 < kernel_height; y_2++){
 					for(int x_2 = 0; x_2 < kernel_width; x_2++){
-						result[y][x] += image[(y + y_2-y_2/2) % image.length][(x + x_2-x_2/2) % image[0].length] * kernel[y_2][x_2];
+						try{
+						result[y][x] += image[(y + y_2-y_2/2)][(x + x_2-x_2/2)] * kernel[y_2][x_2];
+						}catch(Exception e){
+							result[y][x] = 0;
+						}
 					}
 				}
 			}

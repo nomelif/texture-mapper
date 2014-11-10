@@ -94,8 +94,7 @@ public abstract class AbstractGenerator {
 	    
 		for(int x = 0; x < img.getWidth(); x++){
 			for(int y = 0; y < img.getHeight(); y++){
-				Color color = new Color(Math.min((float) Math.abs(X[y][x] / 256), 1.0f), Math.min((float) Math.abs(Y[y][x] / 256), 1.0f), Math.min((float) Math.abs((X[y][x] + Y[y][x]) / 512), 1.0f));
-				//Color color = Color.red;
+				Color color = new Color((float) X[y][x] / 256, (float) Y[y][x] / 256, (float) (X[y][x] + Y[y][x]) / 512);
 				result.setRGB(x, y, color.getRGB());
 			}
 		}

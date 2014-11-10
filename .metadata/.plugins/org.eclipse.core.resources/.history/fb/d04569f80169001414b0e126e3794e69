@@ -46,7 +46,7 @@ public abstract class AbstractGenerator {
 				result[y][x] = 0.0;
 				for(int y_2 = 0; y_2 < kernel_height; y_2++){
 					for(int x_2 = 0; x_2 < kernel_width; x_2++){
-						result[y][x] += image[(y + y_2-y_2/2) % image.length][(x + x_2-x_2/2) % image[0].length] * kernel[y_2][x_2];
+						result[y][x] += image[(y + y_2-y_2/2) % image.length][(x + x_2-x_2/2) % image[0].length] * kernel[y][x];
 					}
 				}
 			}
@@ -94,8 +94,7 @@ public abstract class AbstractGenerator {
 	    
 		for(int x = 0; x < img.getWidth(); x++){
 			for(int y = 0; y < img.getHeight(); y++){
-				Color color = new Color(Math.min((float) Math.abs(X[y][x] / 256), 1.0f), Math.min((float) Math.abs(Y[y][x] / 256), 1.0f), Math.min((float) Math.abs((X[y][x] + Y[y][x]) / 512), 1.0f));
-				//Color color = Color.red;
+				Color color = new Color((float) X[y][x], (float) Y[y][x], (float) (X[y][x] + Y[y][x]));
 				result.setRGB(x, y, color.getRGB());
 			}
 		}

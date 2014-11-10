@@ -72,7 +72,7 @@ public abstract class AbstractGenerator {
 		
 		for(int x = 0; x < img.getHeight(); x++){
 			for(int y = 0; y < img.getHeight(); y++){
-				Color color = new Color(img.getRGB(x, y));
+				Color color = Color.red;
 				greyscale[y][x] = (color.getRed() + color.getGreen()+ color.getBlue()) / 3;
 			}
 		}

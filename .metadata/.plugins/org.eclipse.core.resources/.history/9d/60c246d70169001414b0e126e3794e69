@@ -17,23 +17,23 @@ public class SobelGenerator extends AbstractGenerator {
 	// 
 	
 	@Override
-	public double[][] OPERATOR_Y(){
+	public float[] OPERATOR_Y(){
 		// TODO Auto-generated method stub
-		return new double[][]{
-				{-1, 0, 1},
-				{-2, 0, 2},
-				{-1, 0, 1}
+		return new float[]{
+				-1, 0, 1,
+				-2, 0, 2,
+				-1, 0, 1
 			};
 		}
 
 
 	@Override
-	public double[][] OPERATOR_X() {
+	public float[] OPERATOR_X() {
 		// TODO Auto-generated method stub
-		return new double[][]{
-				{1,  2,  1},
-				{0,  0,  0},
-			   {-1, -2, -1}
+		return new float[]{
+				1,  2,  1,
+				0,  0,  0,
+			   -1, -2, -1
 			};
 	}
 	
