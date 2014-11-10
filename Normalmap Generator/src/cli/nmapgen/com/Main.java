@@ -9,7 +9,8 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		BufferedImage img = IO.load("/home/theo/Insanity/rocks.jpg");
+		
+		BufferedImage img = IO.load("/home/theo/In sanity/rocks.jpg");
 		SobelGenerator g = new SobelGenerator();
 		img = g.Generate(img);
 		IO.save(img, "/home/theo/Insanity/rocks2.jpg", "png");
