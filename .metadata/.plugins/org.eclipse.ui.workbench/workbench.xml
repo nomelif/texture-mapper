@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="17" version="2.0">
+<workbench progressCount="18" version="2.0">
 <workbenchAdvisor/>
-<window height="512" maximized="true" width="1028" x="130" y="246">
+<window height="483" maximized="true" width="1022" x="622" y="88">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="132" y="25"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="142" y="29"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="124" y="25"/>
-<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="34" y="25"/>
-<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="25"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="25"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="58" y="25"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="132" y="29"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="38" y="29"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="82" y="29"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="82" y="29"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="116" y="29"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="25"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="202" y="29"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -29,10 +30,31 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="/home/theo/texture-mapper/Normalmap Generator/src/cli/nmapgen/com/Main.java" title="Main.java" tooltip="Normalmap Generator/src/cli/nmapgen/com/Main.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Normalmap Generator/src/cli/nmapgen/com/Main.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="944" selectionTopPixel="42"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SobelGenerator.java" partName="SobelGenerator.java" path="/home/theo/texture-mapper/Normalmap Generator/src/cli/nmapgen/com/SobelGenerator.java" title="SobelGenerator.java" tooltip="Normalmap Generator/src/cli/nmapgen/com/SobelGenerator.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Normalmap Generator/src/cli/nmapgen/com/SobelGenerator.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="333" selectionOffset="1168" selectionTopPixel="774"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AbstractGenerator.java" partName="AbstractGenerator.java" path="/home/theo/texture-mapper/Normalmap Generator/src/cli/nmapgen/com/AbstractGenerator.java" title="AbstractGenerator.java" tooltip="Normalmap Generator/src/cli/nmapgen/com/AbstractGenerator.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Normalmap Generator/src/cli/nmapgen/com/AbstractGenerator.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2468" selectionTopPixel="1450"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GaussGenerator.java" partName="GaussGenerator.java" path="/home/theo/texture-mapper/Normalmap Generator/src/cli/nmapgen/com/GaussGenerator.java" title="GaussGenerator.java" tooltip="Normalmap Generator/src/cli/nmapgen/com/GaussGenerator.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Normalmap Generator/src/cli/nmapgen/com/GaussGenerator.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="939" selectionTopPixel="451"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.jdt.ui.MembersView" partName="Members">
@@ -56,10 +78,6 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (6 items)"/>
-<category IMemento.internal.id="Warnings"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="401" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -416,7 +434,165 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Normalmap Generator/src/cli/nmapgen/com/AbstractGenerator.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Normalmap Generator/src/cli/nmapgen/com/SobelGenerator.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Normalmap Generator/src/cli/nmapgen/com/GaussGenerator.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Normalmap Generator/\/usr\/lib\/jvm\/java-7-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.awt(Color.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Normalmap Generator/src/cli/nmapgen/com/Main.java"/>
+</editors>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position info="not_deleted" x="1227" y="0"/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position info="not_deleted" x="805" y="0"/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position info="not_deleted" x="1244" y="0"/>
+</item>
+<item historyLabel="SobelGenerator.java" index="1">
+<position info="not_deleted" x="231" y="0"/>
+</item>
+<item historyLabel="SobelGenerator.java" index="1">
+<position info="not_deleted" x="1165" y="0"/>
+</item>
+<item historyLabel="SobelGenerator.java" index="1">
+<position/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position info="not_deleted" x="1244" y="0"/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position info="not_deleted" x="1232" y="0"/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position/>
+</item>
+<item historyLabel="SobelGenerator.java" index="1">
+<position/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position/>
+</item>
+<item historyLabel="SobelGenerator.java" index="1">
+<position/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position info="not_deleted" x="2468" y="0"/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position info="not_deleted" x="2189" y="0"/>
+</item>
+<item historyLabel="GaussGenerator.java" index="2">
+<position info="not_deleted" x="383" y="4"/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position info="not_deleted" x="2189" y="0"/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position info="not_deleted" x="2348" y="0"/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position/>
+</item>
+<item historyLabel="Color.class" index="3">
+<position/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position info="not_deleted" x="1214" y="0"/>
+</item>
+<item historyLabel="Main.java" index="4">
+<position info="not_deleted" x="522" y="0"/>
+</item>
+<item historyLabel="Color.class" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Main.java" index="4">
+<position info="not_deleted" x="499" y="0"/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position info="not_deleted" x="1214" y="0"/>
+</item>
+<item historyLabel="Main.java" index="4">
+<position info="not_deleted" x="522" y="0"/>
+</item>
+<item historyLabel="GaussGenerator.java" index="2">
+<position info="not_deleted" x="383" y="4"/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position info="not_deleted" x="1010" y="203"/>
+</item>
+<item historyLabel="Main.java" index="4">
+<position info="not_deleted" x="522" y="0"/>
+</item>
+<item historyLabel="SobelGenerator.java" index="1">
+<position/>
+</item>
+<item historyLabel="SobelGenerator.java" index="1">
+<position info="not_deleted" x="2454" y="4"/>
+</item>
+<item historyLabel="Main.java" index="4">
+<position info="not_deleted" x="522" y="0"/>
+</item>
+<item historyLabel="SobelGenerator.java" index="1">
+<position info="not_deleted" x="2454" y="4"/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position info="not_deleted" x="1010" y="203"/>
+</item>
+<item historyLabel="SobelGenerator.java" index="1">
+<position info="not_deleted" x="1168" y="333"/>
+</item>
+<item historyLabel="GaussGenerator.java" index="2">
+<position info="not_deleted" x="1282" y="0"/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position info="not_deleted" x="1010" y="203"/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position info="not_deleted" x="1213" y="0"/>
+</item>
+<item historyLabel="SobelGenerator.java" index="1">
+<position info="not_deleted" x="1168" y="333"/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position info="not_deleted" x="1213" y="0"/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position info="not_deleted" x="2575" y="0"/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position info="not_deleted" x="1010" y="0"/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position info="not_deleted" x="1214" y="0"/>
+</item>
+<item historyLabel="AbstractGenerator.java" index="0">
+<position info="not_deleted" x="2468" y="0"/>
+</item>
+<item historyLabel="GaussGenerator.java" index="2">
+<position info="not_deleted" x="939" y="0"/>
+</item>
+<item historyLabel="SobelGenerator.java" index="1">
+<position info="not_deleted" x="1168" y="333"/>
+</item>
+<item active="true" historyLabel="Main.java" index="4">
+<position info="not_deleted" x="522" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -433,11 +609,23 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name=".project" tooltip="/home/theo/texture-mapper/Normalmap Generator/.project">
-<persistable uri="file:/home/theo/texture-mapper/Normalmap%20Generator/.project"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Color.class" tooltip="java.awt.Color">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Normalmap Generator/\/usr\/lib\/jvm\/java-7-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.awt(Color.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GaussGenerator.java" tooltip="Normalmap Generator/src/cli/nmapgen/com/GaussGenerator.java">
+<persistable path="/Normalmap Generator/src/cli/nmapgen/com/GaussGenerator.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AbstractGenerator.java" tooltip="Normalmap Generator/src/cli/nmapgen/com/AbstractGenerator.java">
+<persistable path="/Normalmap Generator/src/cli/nmapgen/com/AbstractGenerator.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SobelGenerator.java" tooltip="Normalmap Generator/src/cli/nmapgen/com/SobelGenerator.java">
+<persistable path="/Normalmap Generator/src/cli/nmapgen/com/SobelGenerator.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="Normalmap Generator/src/cli/nmapgen/com/Main.java">
 <persistable path="/Normalmap Generator/src/cli/nmapgen/com/Main.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name=".project" tooltip="/home/theo/texture-mapper/Normalmap Generator/.project">
+<persistable uri="file:/home/theo/texture-mapper/Normalmap%20Generator/.project"/>
 </file>
 </mruList>
 </workbench>

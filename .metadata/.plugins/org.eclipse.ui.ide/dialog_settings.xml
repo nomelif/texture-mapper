@@ -9,4 +9,11 @@
 			<item value="org.eclipse.ui.workbenchTransfer"/>
 		</list>
 	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="11" key="DIALOG_Y_ORIGIN"/>
+		<item value="570" key="DIALOG_HEIGHT"/>
+		<item value="385" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Oxygen-Sans Sans-Book|9.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
 </section>
